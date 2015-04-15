@@ -32,10 +32,10 @@ if ($arResult["READY"]=="Y") {
 }
 
 
-	echo "<a class=\"bsk\" href=\"{$arParams["PATH_TO_BASKET"]}\">";
+	echo "<div class='basket-sm in'><a class=\"bsk\" href=\"{$arParams["PATH_TO_BASKET"]}\">";
 		// echo "<span><strong>Корзина</strong></span>";
 		echo "<img src='".SITE_TEMPLATE_PATH."/img/basket.png'/><span class='tiny'>{$basketStr}</span>";
-	echo "</a>";
+	echo "</a></div>";
 
 
 //echo "<pre>"; print_r($arResult); echo "</pre>";

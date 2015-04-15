@@ -146,14 +146,12 @@ $home = 'others'; if ($APPLICATION->GetCurPage(false) === '/') $home = 'home';
                     </div>
                     <div class="static-right">
                         <div class='basket-h  ghost'>
-                            <div class='basket-sm in'>
                                 <?$APPLICATION->IncludeComponent("bitrix:sale.basket.basket.small", "intels", array(
                                         "PATH_TO_BASKET" => "/basket/",
                                         "PATH_TO_ORDER" => "/basket/"
                                     ),
                                     false
                                 );?>
-                            </div>
                         </div>
                         <div class="contacts ghost mar-m-r">
                             <div class="in">

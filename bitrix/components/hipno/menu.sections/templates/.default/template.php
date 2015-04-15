@@ -21,7 +21,7 @@ function iterateMenu ($tree,$k,$output=''){
             unset($tree[$key]);
             continue;
         }
-
+        reset($tree);
         $first_key = key($tree);
         if($branch['DEPTH_LEVEL'] == 2 && $key == $first_key){
             $output .= "<div class='hidden'><table><tr><td>";

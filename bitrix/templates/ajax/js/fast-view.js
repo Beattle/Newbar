@@ -151,6 +151,7 @@ function ajaxAdd2Basket(product){
                 cache:true,
                 onsuccess: function(data){
                     product.find('.basket-message')[0].innerHTML=$(data).filter('.basket-message').html();
+                    console.log($(data));
                     $('.basket-sm')[0].innerHTML = $(data).filter('.basket-sm').html();
 
                 },
@@ -181,6 +182,7 @@ function ajaxAdd2Basket(product){
                 onsuccess: function(data){
                     // add Message
                     var response = $($.parseHTML(data)).filter('.response');
+                    console.log(response);
                     product.find('.basket-message')[0].innerHTML=response.find('.basket-message').html();
                     // update count and price
                     var curTinyBasket = $('.basket-sm .tiny');
