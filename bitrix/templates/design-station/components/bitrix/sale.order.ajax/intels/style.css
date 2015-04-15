@@ -1,0 +1,161 @@
+.order header{
+
+}
+
+.order header h1{
+    color: #000;
+    font-size: 1rem;
+    background: url("/bitrix/templates/design-station/img/chair.png") no-repeat left bottom;
+    min-height: 37px;
+    line-height: 37px;
+    padding-left: 47px;
+}
+
+.order form {
+    margin-top: 20px;
+}
+
+.order form .phone{
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    border: 2px solid #2781BB;
+}
+
+#orderForm input[type=text], #orderForm .select,.textarea-2 > div:first-child textarea{
+    min-height: 26px;
+    display: block;
+    border: 1px solid #464646;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    max-height: 26px;
+    padding-top:0;
+    padding-bottom: 0;
+    line-height: 26px;
+    background: #fff;
+}
+
+.order form .phone label{
+    margin-top: 5px;
+    padding: 0;
+    text-align: justify;
+
+}
+
+@media screen and (min-width: 45em) {
+    .order form .phone label{
+        padding-left: 88px;
+        background: url('/bitrix/templates/design-station/img/info-icon.png') no-repeat 34px 3px ;
+        margin-top: -5px;
+    }
+}
+
+
+#orderForm  .input-checkbox label{
+    padding-left: 42px;
+    background: url("/bitrix/templates/design-station/img/letter-icon.png") no-repeat 12px 12px;
+}
+
+#orderForm  .input-checkbox .button.active .active-mark{
+    background: url("/bitrix/templates/design-station/img/check-l.png") no-repeat;
+}
+
+
+
+.not-phone .text, .not-phone .select{
+    margin-bottom: 12px;
+}
+
+#orderForm .select .options{
+    min-height: 24px;
+    line-height: 24px;
+}
+
+.order label {
+	display: block;
+}
+.input-textarea {
+	height: 150px;
+	line-height: 25px;
+	border: 1px solid #bdc3c7;
+}
+.input-checkbox .button {
+    display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #363636;
+    vertical-align: -20px;
+}
+.input-checkbox>label {
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+
+}
+
+#orderForm .select{
+    max-height: 72px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.select .button.down, .select .button.up{
+    min-height: 24px;
+}
+
+.select .button.up{
+    background: url("/bitrix/templates/design-station/img/arr-sel-up.png") no-repeat  center #2781BB;
+}
+
+.select .button.down{
+    background: url("/bitrix/templates/design-station/img/arr-sel-down.png") no-repeat center #2781BB;
+    border: 1px solid #464646;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.select > div:first-child > .input-text {
+	background-color: white;
+}
+.select .options .hidden .input-text {
+	border-top: none;
+	border-bottom: 1px solid #bdc3c7;
+	border-left: 1px solid #bdc3c7;
+	border-right:1px solid #bdc3c7;
+	background-color: #efefef;
+}
+.select .options .var {
+	cursor: pointer;
+}
+
+.def.pad.cell-m-100{
+    /*-webkit-border-bottom-left-radius: 13px;*/
+    /*-moz-border-bottom-left-radius:13px;*/
+    /*border-bottom-left-radius: 13px;*/
+    /*border-bottom: 1px solid #464646;*/
+}
+
+.textarea-2 > div:last-child{
+    margin-top: 14px;
+/*    max-height: 40px;*/
+}
+
+.textarea-2 > div:last-child textarea{
+    max-height: 64px;
+    border: 1px solid #464646;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/*.select .input-button {
+	background-image: url(images/down.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}*/

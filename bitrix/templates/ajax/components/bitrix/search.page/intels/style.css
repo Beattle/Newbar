@@ -1,0 +1,45 @@
+div.searchContainer {
+	/*width: 700px;*/
+}
+div.searchResult {
+	margin: 25px 0 0 0;
+	border-top: 1px solid #E7F1F4;
+}
+p.searchBread{
+	opacity: 0.7;
+}
+div.searchResult h2 {
+	font-size: 2em;
+	border: none;
+}
+div.searchResult h3 {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	margin: 20px 0 0 0;
+}
+div.searchResult h2 a {}
+p.description {}
+p.date {
+	font-size: 85%;
+}
+p.breadcrumbs {
+	font-size: 85%;
+}
+div.navigation {
+	margin: 30px 0 20px 0;
+}
+div.navigation font {
+	font-size: 1.5em;
+	line-height: 1em;
+}
+div.navigation a {}
+div.searchLanguageGuess {
+	margin: 20px 0 0 0;
+}
+div.searchLanguageGuess a {}
+div.notfound {
+	color: green;
+}
+p.description {}
+p.date {}
+p.breadcrumbs {}

@@ -1,0 +1,38 @@
+/* @media screen and (min-width: 720px 8 cols) */
+@media screen and (min-width: 45em) {
+	.category_caption {
+		min-height: 86px;
+	}
+}
+
+.h1.pad.category{
+    font-family: museo_cyrl500,tahoma,sans-serif;
+    color: #04B4E7;
+}
+
+body.others div.sections section.row a.link-block figure{
+    max-width: 100%;
+    min-height: 100%;
+}
+
+
+
+body.others  nav.bg-1{
+    margin: 4em 0;
+}
+
+body.others  nav.bg-1 div.mar-t ul.pad li{
+    text-align: center;
+    line-height: 2.2em;
+}
+
+body.others  nav.bg-1 div.mar-t ul.pad li a{
+    color: #6B6B6B;
+    padding-left: 12px;
+    text-decoration: none;
+}
+
+body.others  nav.bg-1 div.mar-t ul.pad li a:hover{
+    background: url("/bitrix/templates/design-station/img/ma.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #00ABDC;
+}

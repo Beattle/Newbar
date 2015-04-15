@@ -1,0 +1,225 @@
+.category-products{
+    background: #fff;
+}
+
+.mark {
+	position: absolute;
+	top: 0;
+	left: 0;
+    z-index: 10;
+
+}
+
+.mark > div{
+    float:none;
+}
+
+div.new_year{
+
+    position:absolute;
+    top:0;
+    left: 0;
+    width:86px;
+    height: auto!important;
+    z-index: 10;
+}
+
+body.others div.row div.pad h1{
+    color: #2781BB;
+    font-family: Arial,Calibri,Helvetica,sans-serif;
+    font-size: 2em;
+}
+body.others div.products section.row{
+    overflow: visible;
+}
+body.others div.products section.row article{
+    padding:0 0.89%;
+}
+
+body.others div.products section.row article:hover{
+    border:1px solid #2781BB;
+    -webkit-box-shadow: 0px 0px 20px #bbbbbb;
+    -moz-box-shadow: 0px 0px 20px #bbbbbb;
+    box-shadow: 0px 0px 20px #bbbbbb;
+}
+
+body.others div.products section.row article.cell-t-16  h3 {
+
+    text-align: center;
+    margin: 0;
+    height: 36px;
+    display: table;
+    width: 100%;
+}
+
+body.others div.products section.row article.cell-t-16  h3 a{
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+    display: table-cell;
+    height: 36px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+body.others div.products section.row article.cell-t-16 figure {
+    min-height: 200px;
+}
+
+
+body.others div.products section.row article.cell-t-16 figure a{
+    min-height: 200px;
+}
+
+
+
+body.others  div.products section.row article.cell-t-16 p.price{
+    font-size: 16px;
+    text-align: center;
+    margin: 0.5rem 0;
+    overflow: auto;
+}
+
+.products .row article .price .price-from{
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+body.others  div.products section.row article.cell-t-16 p.price span.price.not-available{
+    font-size: 14px;
+}
+
+body.others  .products  article .price .price{
+    display: block;
+}
+
+@media screen and (min-width: 75em) {
+    .products article .price .price{
+        display: block;
+        float: left;
+    }
+
+    .products article .price > .available, .products article .price > .wait-days{
+        display: block;
+        float: right;
+    }
+}
+
+body.others  div.products section.row article.cell-t-16 p.price span.available, body.others  div.products section.row article.cell-t-16 p.price span.wait-days{
+    padding-left: 21px;
+    text-transform: lowercase;
+    font-size: 14px;
+}
+
+body.others  div.products section.row article.cell-t-16 p.price span.unknown{
+    color:red;
+    text-transform: lowercase;
+}
+
+body.others  div.products section.row article.cell-t-16 p.price span.available{
+    background: url("/bitrix/templates/design-station/img/clock.gif")  no-repeat left center;
+    color:#9cc900;
+}
+
+body.others  div.products section.row article.cell-t-16 p.price span.wait-days{
+    color:#23ceff;
+    background: url("/bitrix/templates/design-station/img/clock1.gif") no-repeat left center;
+}
+
+body.others div.products div.sort a.active{
+    color: #1abfee;
+}
+
+body.others div.products section.row article.cell-t-16 .hover-link{
+    display: block;
+    width: 75.625%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    min-height: 29px;
+    text-decoration: none;
+    line-height: 29px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: museo_cyrl500,sans-serif;
+
+}
+
+body.others div.products section.row article.cell-t-16 a.hover-link.add{
+    border: 1px solid #ec8b00;
+    background: url("/bitrix/templates/design-station/img/btn-add.png") repeat-x;
+}
+
+body.others div.products section.row article.cell-t-16 .hover-link.fast{
+/*    border: 1px solid #16b0d3;*/
+    background:#2781BB url("/bitrix/templates/design-station/img/btn-fast.png") repeat-x;
+
+}
+
+
+body.others div.products section.row article.cell-t-16  .hover-link span.add {
+    background: url("/bitrix/templates/design-station/img/section-cart.png") no-repeat left center;
+    display: inline-block;
+    height: 25px;
+    color: #fff;
+    line-height: 24px;
+    padding-left: 38px;
+}
+
+body.others div.products section.row article div.hover-block{
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    width: 100%;
+/*    background: #F6F6F6;*/
+}
+
+body.others div.products section.row article span.hover-block{
+    bottom:0;
+    display:block;
+    min-height: 31px;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    width: 100%;
+/*    background: #F6F6F6;*/
+}
+
+body.others div.products section.row article .hover-block.relative{
+    position: relative;
+}
+
+body.others div.products section.row article:hover .hover-block{
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    z-index: 40;
+}
+
+
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+
+#simplemodal-data.product .basket .basket-message{
+    text-align:  center;
+}
+
+.artwc {
+    font-size: 0.8em;
+    text-align: center;
+}

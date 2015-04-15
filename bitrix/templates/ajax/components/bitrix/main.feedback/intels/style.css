@@ -1,0 +1,77 @@
+.feedbackContainer {
+	/*border: 1px solid #0072BB;
+	border-radius: 5px;*/
+	padding: 20px 20px 20px 15px;
+	background: white;
+	position: relative;
+}
+.feedbackClose {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 0;
+	right: 0;
+	background: url(images/close.png) no-repeat center;
+	cursor: pointer;
+}
+.feedbackHeader {
+	padding-bottom: 20px;
+	font-size: 2em;
+}
+.feedbackHeader h2 {
+	margin: 0;
+}
+.text {
+	padding-bottom: 5px;
+}
+.text input#user_name {
+	margin-left: 50px;
+	width: 200px;
+}
+.text input#user_email {
+	margin-left: 20px;
+	width: 160px;
+}
+.textarea {
+	padding-top: 10px;
+}
+.textarea textarea {
+	width: 100%;
+	height: 100px;
+}
+.submit input {
+	width: 90%;
+	height: 30px;
+	margin-top: 10px;
+	font-family: Calibri, sans-serif;
+	font-size: 1.3em;
+	color: white;
+	background-color: #3498db;
+	border: 0;
+	display: block;
+	float: none;
+}
+.submit input:hover {
+	/*opacity: 0.8;*/
+	background-color: #3db2ff;
+}
+.feedbackOk p {
+	font-weight: bold;
+}
+.feedbackContainerLoading {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	right: 20px;
+	bottom: 21px;
+	background: url(images/loading.gif) top left no-repeat;
+	display: none;
+}
+
+/*
+img#captcha {
+	display: block;
+	margin: 5px 0px 0px 5px;
+	width: 180px;
+}
+*/

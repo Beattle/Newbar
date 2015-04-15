@@ -1,0 +1,2 @@
+<?
+$MESS["WORKNMN_SLIDER_PRODAUSIY_SLAYDER"] = "Слайдер товаров";

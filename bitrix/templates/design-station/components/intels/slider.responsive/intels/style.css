@@ -1,0 +1,89 @@
+/**********************/
+/*      TECH          */
+/**********************/
+
+/* Slides */
+.slidercontainer .slides {
+	position: relative;
+	z-index: 10;
+}
+.slidercontainer .slides > article, .slidercontainer .slides > div {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	display: none;
+	overflow: hidden;
+}
+
+/* Arrows */
+.arrows {
+	position: relative;
+	overflow: visible;
+	z-index: 20;
+}
+.arrows > div {
+	width: 50px;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+	background-color: black;
+	opacity: 0.7;
+}
+.arrows > div:first-child {
+	left: 0;
+}
+
+
+/**********************/
+/*      LOOK          */
+/**********************/
+
+/* Slider */
+.slidercontainer {
+	/*margin-top: 1px;
+	border-top: 1px solid #12b8dd;*/
+}
+.slideContainer .link-block {
+	min-height: 85px;
+}
+
+@media screen and (min-width: 45em) {
+	.slider-text {
+		position: absolute;
+		bottom: 0;
+		height: 100%;
+	}
+}
+
+/* Switcher */
+.switcher {
+	position: relative;
+	z-index: 15;
+	text-align:right;
+}
+.switcher > * {
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+	border: 3px solid white;
+	margin-right: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+	background:#e1e1e1;
+	display:inline-block;
+}
+.switcher > *:hover {
+	background-color: #21cdf3;
+}
+.switcher > *.activeSwitch {
+	background-color: #21cdf3;
+}
+@media screen and (min-width: 45em) {
+	.switcher {
+		margin-top: -60px;
+	}
+}

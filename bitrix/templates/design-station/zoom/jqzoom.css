@@ -1,0 +1,36 @@
+
+div.zoomdiv {
+z-index                 : 100;
+position                : absolute;
+top:0px;
+left:0px;
+width                   : 200px;
+height                  : 200px;
+background: #ffffff;
+border:1px solid #CCCCCC;
+display:none;
+text-align: center; 
+overflow: hidden;
+
+}
+
+div.zoomdiv img {
+	max-width: none;
+}
+
+
+img.jqzoom{
+cursor:crosshair;
+position:relative;
+
+}
+span.tozoom{
+float:left;
+width:420px;
+margin:5px;
+}
+
+span.tozoom img{
+border: 1px solid #EEEEEE;
+}
+

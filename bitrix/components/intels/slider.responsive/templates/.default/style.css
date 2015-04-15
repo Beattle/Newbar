@@ -1,0 +1,214 @@
+/**********************/
+/*      TECH          */
+/**********************/
+
+/* Slides */
+.slidercontainer .slides {
+	position: relative;
+	z-index: 100;
+}
+.slidercontainer .slides > article, .slidercontainer .slides > div {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	display: none;
+	overflow: hidden;
+}
+
+/* Arrows */
+.arrows {
+	position: relative;
+	overflow: visible;
+	z-index: 200;
+}
+.arrows > * {
+	width: 40px;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+.arrows > *:first-child {
+	left: 0;
+}
+
+/* Switcher */
+.switcher {
+	position: relative;
+	z-index: 150;
+	cursor: pointer;
+}
+
+/**********************/
+/*      LOOK          */
+/**********************/
+
+/* Main */
+.slidercontainer,
+.slidercontainer div,
+.slidercontainer p,
+.slidercontainer article,
+.slidercontainer figure,
+.slidercontainer section,
+.slidercontainer a
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+.slidercontainer figure {
+  position: relative;
+}
+.slidercontainer  figure img {
+  max-width: 100%;
+  display: block;
+}
+.slidercontainer  img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Base classes */
+.row {
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+.bg-2 {
+	background: url(images/nav-f-bg.png);
+}
+.bg-2 p,
+.bg-2 a {
+	color: white;
+}
+.pad {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.vpad {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.vpad>*:first-child {
+	margin-top: 0;
+}
+.only-d {
+	display: none;
+}
+
+/* Slider fonts */
+.slidercontainer {
+	font-family: Verdana, san-serif;
+	font-size: 0.85em;
+	line-height: 1.3em;
+}
+.slidercontainer .main {
+	font-size: 1.5em;
+ 	line-height: 1.4em;
+}
+.slidercontainer p {
+	line-height: 1.6em;
+}
+
+.slidercontainer .main {
+	margin-top: 0;
+	font-weight: bold;
+}
+.slidercontainer p {
+	margin-top: 1em;
+	font-weight: normal;
+}
+/* @media screen and (min-width: 720px 8 cols) */
+@media screen and (min-width: 45em) {
+	.slidercontainer .main {
+		font-size: 1.875em;
+		line-height: 1.3em;
+	}
+}
+/* @media screen and (min-width: 1200px 16 cols) */
+@media screen and (min-width: 75em) {
+	.slidercontainer .main {
+		font-size: 2.25em;
+		line-height: 1.3em;
+	}
+}
+
+/* Slider */
+.slideContainer .link-block {
+	min-height: 85px;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+}
+.slideContainer .link-block:hover {
+	background-color: #12b8dd;
+}
+.bg-darker {
+	background-image: url(images/darker.png);
+}
+@media screen and (min-width: 45em) {
+	.slider-text {
+		position: absolute;
+		bottom: 0;
+		height: 100%;
+	}
+}
+
+/* Arrows */
+.leftArrow {
+	background: url(images/left.png) no-repeat center left;
+	background-color: #21cdf3;
+}
+.rightArrow {
+	background: url(images/right.png) no-repeat center left;
+	background-color: #21cdf3;
+}
+
+/* Switcher */
+.switcher > * {
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	border: 3px solid white;
+	margin-right: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+}
+.switcher > *:hover {
+	background-color: #21cdf3;
+}
+.switcher > *.activeSwitch {
+	background-color: #21cdf3;
+}
+
+/* Work from 720px window width */
+@media screen and (min-width: 720px) {
+	.switcher {
+		margin-top: -60px;
+	}
+	.mar-t {
+		margin-left: 5.555555%;
+		margin-right: 5.555555%;
+	}
+	.cell-t-50 {
+		clear: none;
+		float: left;
+		width: 50%;
+	}
+}
+/* Work from 1200px window width */
+@media screen and (min-width: 1200px) {
+	.only-d {
+		display: block;
+	}
+	.cell-d-37-5 {
+		clear: none;
+		float: left;
+		width: 37.5%;
+	}
+}

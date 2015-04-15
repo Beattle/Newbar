@@ -1,0 +1,11 @@
+.only-m .basket-sm {
+    height: 40px;
+    min-width: 31px;
+}
+
+.only-m .basket-sm .dropdown{
+    width: 95%;
+    vertical-align: middle;
+    display: inline-block;
+    min-height: 28px;
+}

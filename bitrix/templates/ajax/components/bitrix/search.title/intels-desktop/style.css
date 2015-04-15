@@ -1,0 +1,184 @@
+/* search */
+
+#title-search.search{
+    height: 40px;
+    line-height: 40px;
+}
+.not-m .search form {
+    display: inline;
+    width: 100%;
+    border:2px solid #C7C4C4;
+    height: 26px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.not-m .search input {
+	width: 93%;
+	border: 0;
+    height: 17px;
+    display: inline-block;
+    font-style: italic;
+    color:#858585;
+}
+
+#title-search-input{
+    padding-left: 0px;
+}
+
+.not-m .search .input-button {
+	width: 25px;
+	margin-left: -25px;
+	font-size: 0;
+	background-image:url(images/search1.png);
+    background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    right: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Выпадающая таблица с результатами поиска по заголовкам */
+div.title-search-result {
+	/*min-width: 1000px !important;*/
+	font-size: 0.8em;
+	outline:1px solid #c6c6c6;
+	display:none;
+	overflow:hidden;
+	z-index:999;
+}
+
+div.title-search-result > div {
+	position: relative;
+}
+
+table.title-search-result {
+	border-collapse: collapse;
+	border:none;
+	width:100%;
+}
+
+table.title-search-result th {
+
+
+	/* display: none; intels */
+	
+	background-color:#F7F7F7;
+	border-right:1px solid #e8e8e8;
+	color:#949494;
+	font-weight:normal;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:14px;
+ 	padding-right:12px;
+	text-align:right;
+	vertical-align:top;
+	white-space:nowrap;
+	width:1%;
+}
+
+table.title-search-result td {
+	background-color:white;
+	color:black;
+	font-weight:normal;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-align:left;
+	/*white-space:nowrap;*/
+}
+
+table.title-search-result td.title-search-item {
+	padding-left:18px;
+	padding-right:15px;
+	background: url(images/default.png) left 6px no-repeat;
+	background-color: white;
+}
+
+table.title-search-result td.title-search-item a {
+	padding-left:4px;
+	padding-right:15px;
+	text-decoration: none;
+	color:black;
+	vertical-align:top;
+}
+
+table.title-search-result td.title-search-item img {
+	vertical-align:top;
+}
+
+table.title-search-result td.title-search-item b {
+	color:#cf0000;
+	font-weight:normal;
+}
+
+table.title-search-result tr.title-search-selected td
+,table.title-search-result tr.title-search-selected a
+,table.title-search-result tr.title-search-selected td.title-search-more a
+{
+	background-color:#fff2be;
+}
+
+table.title-search-result td.title-search-more {
+	font-size:11px;
+	font-weight:normal;
+	padding-right:15px;
+	padding-left:24px;
+	padding-top:0px;
+}
+
+table.title-search-result td.title-search-more a
+{
+	padding-left:12px;
+	padding-right:15px;
+	text-decoration:none;
+	color:#999999;
+}
+
+table.title-search-result td.title-search-all {
+	padding-left:24px;
+	padding-right:15px;
+}
+
+table.title-search-result td.title-search-all a
+{
+	padding-left:4px;
+	text-decoration:none;
+	color:#808080;
+}
+
+table.title-search-result td.title-search-separator
+, table.title-search-result th.title-search-separator {
+	padding-top:0px;
+	padding-bottom:0px;
+	font-size:4px;
+}
+
+div.title-search-fader {
+	display:none;
+	background-image: url('images/fader.png');
+	background-position: right top;
+	background-repeat: repeat-y;
+	position:absolute;
+}

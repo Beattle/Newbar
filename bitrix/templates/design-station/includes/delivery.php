@@ -1,0 +1,1 @@
+<a href="/delivery-and-payment" title="Доставка и оплата" > <img class="car" src="/bitrix/templates/design-station/img/car.png" alt="Доставка"  /></a>

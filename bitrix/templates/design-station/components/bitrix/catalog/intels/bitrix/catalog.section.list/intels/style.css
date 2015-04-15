@@ -1,0 +1,60 @@
+/* @media screen and (min-width: 720px 8 cols) */
+@media screen and (min-width: 45em) {
+	.category_caption {
+		min-height: 70px;
+	}
+}
+
+
+
+.h1.pad.category{
+    font-family: Arial,Calibri,Helvetica,sans-serif;
+    color: #2781BB;
+    margin: 0.33em 0 1em;
+    text-align: center;
+}
+
+body.others div.sections section.row a.link-block{
+    /*z-index: 100;*/
+}
+
+body.others div.sections section.row a.link-block figure{
+    max-width: 100%;
+    min-height: 200px;
+}
+
+
+
+body.others div.sections section.row a.link-block figure img.blue{
+    position: absolute;
+    display: none;
+/*    max-width: 76%;*/
+}
+
+html{
+    height: auto!important;
+    min-height: 100%;
+    position: relative;
+}
+
+@media screen and (min-width: 75em){
+    body.others{
+        margin: 0 0 220px;
+    }
+
+    html body.others footer.row{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        min-height: 186px;
+        width: 100%;
+    }
+}
+
+.category-products{
+
+
+}
+
+
+

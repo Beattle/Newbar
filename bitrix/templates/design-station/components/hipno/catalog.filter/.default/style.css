@@ -1,0 +1,54 @@
+.filter-table .group-name{
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.filter-table td{
+    padding: 3px 3px;
+    font-size: 12px;
+/*    text-align: center;*/
+}
+
+.filter-table .cell-filter, .filter-table .group-name{
+    border:1px solid #989393;
+}
+
+.filter-form .btns{
+    text-align: left;
+    margin-top: 1%;
+}
+
+.filter-form .btns input{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 3px;
+    background: #2781bb;
+    border:1px solid #989393;
+    font-weight: 500;
+}
+
+.cell-filter label{
+    /*color:#6b6b6b;*/
+    /*padding-left: 18px;*/
+/*    background: url('checkbox.png') no-repeat left center;*/
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 4px;
+    overflow: hidden;
+    color: #565656;
+}
+
+.cell-filter label:hover{
+    color:#2781bb;
+}
+
+.cell-filter input{
+    /*display: none;*/
+}
+
+.cell-filter input:checked + label{
+    /*background: url("checked.png") no-repeat left center;*/
+    color:#010101;
+}

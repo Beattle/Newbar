@@ -1,0 +1,1 @@
+<a href="mailto:newbar77@gmail.com" > <img class="mail" src="/bitrix/templates/design-station/img/mail.png" title="Электропочта" alt="Электропочта"  /></a>

@@ -1,0 +1,13 @@
+.only-m nav{
+    min-height: 40px;
+}
+
+.only-m nav > a{
+    line-height: 40px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 89%;
+    max-width: 169px;
+
+}

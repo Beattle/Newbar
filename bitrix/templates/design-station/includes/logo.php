@@ -1,0 +1,1 @@
+<img class="logo" src="/bitrix/templates/design-station/img/logo.png" title="Design station" alt="Design station"  />

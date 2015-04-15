@@ -1,0 +1,44 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+<IfModule mod_php5.c>
+	php_flag allow_call_time_pass_reference 1
+	php_flag session.use_trans_sid off
+
+	#php_value display_errors 1
+
+	php_value mbstring.internal_encoding UTF-8
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+	RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_dir.c>
+	DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive onca
+	ExpiresByType image/jpeg "access plus 3 day"
+	ExpiresByType image/gif "access plus 3 day"
+</IfModule>
+
+Redirect 301 /cat80_106.html http://newbar.ru/catalog/76/
+Redirect 301 /cat133_136.html http://newbar.ru/catalog/70/
+Redirect 301 /cat80_89.html http://newbar.ru/catalog/75/
+Redirect 301 /cat80_91.html http://newbar.ru/catalog/77/
+Redirect 301 /cat81_103.html http://newbar.ru/catalog/71/
+Redirect 301 /cat81_104.html http://newbar.ru/catalog/70/
+Redirect 301 /cat81_109.html http://newbar.ru/catalog/73/
+Redirect 301 /cat82_94.html http://newbar.ru/catalog/61/
+Redirect 301 /cat82_96.html http://newbar.ru/catalog/62/
+Redirect 301 /cat92_100.html http://newbar.ru/catalog/59/
+Redirect 301 /cat92_126.html http://newbar.ru/catalog/58/
