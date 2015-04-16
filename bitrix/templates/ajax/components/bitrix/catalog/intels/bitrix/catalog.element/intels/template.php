@@ -341,7 +341,11 @@
                 </div>
                 <div class="right">
                 <h1><?=$arResult["NAME"];?></h1>
-
+                <?php
+                  if ($arResult["PROPERTIES"]["SKU"]["VALUE"]) {
+                    echo "<span class=\"artw\">Артикул: {$arResult["PROPERTIES"]["SKU"]["VALUE"]}</span>";
+                  }
+                ?>
 
                 <? if ($arResult["DISPLAY_PROPERTIES"]["COLORS"] AND $arResult["PRODUCT_PROPERTIES"]["COLORS"] AND $arResult["DISPLAY_PROPERTIES"]["COLORS"]["VALUE"]["0"] != "613") {
                     echo "<div  class=\"colors\">

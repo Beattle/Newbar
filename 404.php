@@ -54,6 +54,11 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
       <br />
 </article> </section> </div>
 
+<div class="rr-widget pad-t bg-2 cell-d-100 cell-t-100 cell-m-100"
+     data-rr-widget-type="search"
+     data-rr-widget-id="5385d87f1e994405dca2c71c"
+     data-rr-widget-width="100%"></div>
+
 <? require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 
 $APPLICATION->SetTitle("404 - HTTP not found");

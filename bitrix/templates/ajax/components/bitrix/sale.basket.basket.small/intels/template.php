@@ -29,7 +29,7 @@ if ($arResult["READY"]=="Y") {
 	}
 }
 
-echo "<div class=\"basket-sm tc\">";
+echo "<div class=\"basket-sm in\">";
 	echo "<a class=\"bsk\" href=\"{$arParams["PATH_TO_BASKET"]}\">";
 		// echo "<span><strong>Корзина</strong></span>";
 		echo "<span class=\"tiny\">{$basketStr}</span>";

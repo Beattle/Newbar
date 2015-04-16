@@ -40,10 +40,9 @@ $APPLICATION->SetTitle("Мебель для ресторанов, кафе и б
 	)
 );?> 
 <!--
-<img id="bxid_407503" src="//www.newbar.ru.images.1c-bitrix-cdn.ru/bitrix/images/fileman/htmledit2/php.gif?1393401408507" border="0"  />
+<img id="bxid_851705" src="//www.newbar.ru.images.1c-bitrix-cdn.ru/bitrix/images/fileman/htmledit2/php.gif?1393401408507" border="0"  />
 -->
- 
-<div class="central H1 text-center not-m">Мебель для кафе, ресторанов и баров</div>
+ <div class="central H1 text-center not-m">Мебель для кафе, ресторанов и баров</div>
  
 <div class="sections pad-t bg-2"> <section class="row"> <article class="cell-t-16 first-item eq-height"> <a class="link-block button " href="/catalog/74/" > <figure class="pad vpad"> <img src="/bitrix/templates/design-station/img/cats/1.png"  /> </figure> 
         <div class="pad text-center">Стулья</div>
@@ -57,8 +56,10 @@ $APPLICATION->SetTitle("Мебель для ресторанов, кафе и б
         <div class="pad text-center">Мягкая мебель</div>
        </a> </article> <article class="cell-t-16 first-item eq-height"> <a class="link-block button " href="/catalog/48/" > <figure class="pad vpad"> <img src="/bitrix/templates/design-station/img/cats/6.png"  /> </figure> 
         <div class="pad text-center">Мебель для уличных кафе</div>
-       </a> </article> </section> <section class="row"> <article class="cell-t-16 first-item eq-height"> <a class="link-block button " href="/catalog/54/" > <figure class="pad vpad"> <img src="/bitrix/templates/design-station/img/cats/7.png"  /> </figure> 
-        <div class="pad text-center">Кантри мебель</div>
+       </a> </article> </section> <section class="row"> <article class="cell-t-16 first-item eq-height"> <a class="link-block button " href="/catalog/166/" > <figure class="pad vpad"> <img src="/bitrix/templates/design-station/img/cats/7.png"  /> </figure> 
+        <div class="pad text-center">Столовые группы 
+          <br />
+         </div>
        </a> </article> <article class="cell-t-16 first-item eq-height"> <a class="link-block button " href="/catalog/47/" > <figure class="pad vpad"> <img src="/bitrix/templates/design-station/img/cats/8.png"  /> </figure> 
         <div class="pad text-center">Барные стойки</div>
        </a> </article> <article class="cell-t-16 first-item eq-height"> <a class="link-block button " href="/catalog/86/" > <figure class="pad vpad"> <img src="/bitrix/templates/design-station/img/cats/9.png"  /> </figure> 

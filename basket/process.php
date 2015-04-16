@@ -118,8 +118,6 @@ if($_POST['removeAll']){
     <? } ?>
 </div>
 
-
-
 <?php if ($id_price_sum[$_POST['basketid']]):?>
 <div class="sum-price" id="<?=$_POST['basketid'];?>">
     <?=number_format($id_price_sum[$_POST['basketid']],0,'',' ');?><span class="r">Р</span>

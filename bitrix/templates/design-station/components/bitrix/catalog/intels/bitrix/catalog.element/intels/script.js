@@ -195,7 +195,7 @@ $(document).ready(function() {
         }
 
             var name = $('.product .box > h1').text();
-            var id = parseFloat($(this).find('input[name=id]').val());
+            var id = parseFloat($(this).find('input[name=ELEMENT_ID]').val());
             var q=parseFloat($(this).find('input.quantity').val());
             var obj = {'ajaxaddid':id,'quantity':q,'ajaxaction':'add'};
             var bm = $(this).next('.basket-message');
@@ -212,7 +212,6 @@ $(document).ready(function() {
                     success: function(data){
                         bm.html($(data).filter('.basket-message').html());
                         $('.basket-sm').html($(data).filter('.basket-sm').html());
-                        console.log($(data));
                         var $modal = $(data).filter('#container');
                        var leave_me = $modal.find('#leave-me-alone');
                         if (check !== undefined) {

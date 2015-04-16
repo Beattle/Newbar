@@ -31,6 +31,4 @@ function Redirect404() {
 
 
 
-
-
 // to do Need to detect all touch devices by touch event. it wiil be easier for code
